@@ -1,4 +1,3 @@
-
 # AI-Based Interview Web Application
 
 ## Overview
@@ -34,7 +33,7 @@ This project is an AI-powered interview-taking web application that evaluates bo
    ```
 3. Download and install **FFmpeg**.  
    - Set its path in the **environment variables**.
-4. Install **CUDA** for GPU acceleration.
+4. Install **CUDA** for GPU acceleration. If you are on Windows, install **cuDNN** as well. While cuDNN is optional, it enhances performance. Without CUDA, the model will run in **FP16** (half precision), leading to less accurate results. With CUDA, the model runs in **FP32** (full precision) for better accuracy.
 5. Start the Python server:
    ```sh
    python app.py
@@ -54,10 +53,11 @@ This project is an AI-powered interview-taking web application that evaluates bo
 ## Features
 - **AI-powered interview evaluation**  
 - **Real-time analysis of audio and video responses**  
-- **Simple and easy setup**
-  
+- **Simple and easy setup**  
+
 ## Demo Video
 Watch the demo video here: [AI Interview Demo](https://youtu.be/cyTJttvtTn8)
+
 ---
 
-
+Let me know if you need any modifications!
