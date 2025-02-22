@@ -15,35 +15,46 @@ This project is an AI-powered interview-taking web application that evaluates bo
 2. Install dependencies:
    ```sh
    npm install
-Start the server:
-sh
-Copy
-Edit
-npm run dev
-or
-sh
-Copy
-Edit
-node index.js
-Backend (Python)
-Navigate to the Python backend folder.
-Install dependencies:
-sh
-Copy
-Edit
-pip install -r requirements.txt
-Download and install FFmpeg.
-Set its path in the environment variables.
-Install CUDA for GPU acceleration.
-Start the Python server:
-sh
-Copy
-Edit
-python app.py
-Frontend (React + Vite)
-(Provide installation steps if needed.)
+   ```
+3. Start the server:
+   ```sh
+   npm run dev
+   ```
+   or  
+   ```sh
+   node index.js
+   ```
 
-Features
-AI-powered interview evaluation
-Real-time analysis of audio and video responses
-Simple and easy setup
+### Backend (Python)
+1. Navigate to the Python backend folder.
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Download and install **FFmpeg**.  
+   - Set its path in the **environment variables**.
+4. Install **CUDA** for GPU acceleration.
+5. Start the Python server:
+   ```sh
+   python app.py
+   ```
+
+### Frontend (React + Vite)
+1. Navigate to the frontend folder.
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Features
+- **AI-powered interview evaluation**  
+- **Real-time analysis of audio and video responses**  
+- **Simple and easy setup**  
+
+---
+
+
