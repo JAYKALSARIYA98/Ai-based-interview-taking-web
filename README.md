@@ -60,4 +60,3 @@ Watch the demo video here: [AI Interview Demo](https://youtu.be/cyTJttvtTn8)
 
 ---
 
-Let me know if you need any modifications!
