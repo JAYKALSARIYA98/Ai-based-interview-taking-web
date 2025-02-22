@@ -89,14 +89,17 @@ export default function HomePage() {
               />
             </motion.button>
 
-            <motion.button
+            <motion.a
+              href="https://youtu.be/cyTJttvtTn8"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center px-6 py-4 text-lg font-medium bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl hover:bg-white/20 transition-colors"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
               <PlayCircle className="w-5 h-5 mr-2" />
               Watch Demo
-            </motion.button>
+            </motion.a>
           </motion.div>
         </motion.div>
 
@@ -132,31 +135,6 @@ export default function HomePage() {
             </motion.div>
           ))}
         </motion.div>
-
-        {/* Floating Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {[...Array(3)].map((_, i) => (
-            <motion.div
-              key={i}
-              className="absolute w-64 h-64 bg-white/5 rounded-full"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-              }}
-              animate={{
-                scale: [1, 1.2, 1],
-                opacity: [0.1, 0.2, 0.1],
-                x: [0, 100, 0],
-                y: [0, 100, 0],
-              }}
-              transition={{
-                duration: 15 + i * 2,
-                repeat: Infinity,
-                ease: "linear",
-              }}
-            />
-          ))}
-        </div>
       </motion.div>
     </div>
   );
